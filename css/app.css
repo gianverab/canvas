@@ -49,8 +49,8 @@ body {
 #myCanvas{
   width: 690px;
   height: 420px;
-  border: 5px solid #fff;
-  background-color: #1a1a1b;
+  /*border: 5px solid #fff;
+  background-color: #1a1a1b;*/
 }
 #stats{
   width: 690px;
@@ -88,6 +88,7 @@ body {
   color: #fff;
 }
 #overlay{
+  display: none;
   width: 260px;
   height: 100px;
   color: #fff;
