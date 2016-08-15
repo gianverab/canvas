@@ -40,12 +40,78 @@ body {
   width: 700px;
   margin: 0 auto;
   padding: 104px 0 24px;
-  box-sizing:border-box;
+}
+#app-body a{
+  color: #2b3e4f;
+  text-decoration: none;
+  position: relative;
 }
 #myCanvas{
-  width: 700px;
+  width: 690px;
   height: 420px;
-  border: 1px solid #2b3e4f;
+  border: 5px solid #fff;
+  background-color: #1a1a1b;
+}
+#stats{
+  width: 690px;
+  padding: 5px;
+  background-color: #3a3a3b;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  overflow: auto;
+}
+.score{
+  width: 25%;
+  height: 30px;
+  padding-top: 20px;
+  float: left;
+  margin-right: 5px;
+  border-radius: 2px;
+  overflow: auto;
+  background-color: #1a1a1b;
+  text-align: center;
+}
+#resetBtn{
+  padding: 10px;
+  margin-top: 6px;
+  margin-right: 4px;
+  border: none;
+  border-radius: 2px; 
+  float: right;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+#resetBtn:hover{
+  background-color: #2b3e4f;
+  color: #fff;
+}
+#overlay{
+  width: 260px;
+  height: 100px;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -130px;
+  margin-top: -30px;
+  text-align: center;
+}
+#overlay p{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+#overlay a{
+  padding: 5px 10px;
+  background-color: rgba(255,255,255,1);
+  font-size: 20px;
+  border-radius: 2px;
+  transition: all .5s ease-in-out;
+}
+#overlay a:hover{
+  background-color: rgba(255,255,255,.8);
 }
 #app-footer {
   width: 100%;
