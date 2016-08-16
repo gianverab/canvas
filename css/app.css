@@ -46,12 +46,6 @@ body {
   text-decoration: none;
   position: relative;
 }
-#myCanvas{
-  width: 690px;
-  height: 420px;
-  /*border: 5px solid #fff;
-  background-color: #1a1a1b;*/
-}
 #stats{
   width: 690px;
   padding: 5px;
